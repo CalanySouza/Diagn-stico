@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora de Fio e Disjuntor</title>
+</head>
+
+<body>
+  <div class="card">
+    <h1>Calculadora de Dimensionamento</h1>
+    <label for="potencia">Potência do aparelho (W):</label>
+    <input type="number" id="potencia">
+    <label for="tensao">Tensão (V):</label>
+    <select id="tensao">
+      <option value="110">110V</option>
+      <option value="220">220V</option>
+    </select>
+    <button id="btnCalcular">Calcular</button>
+    <p id="res">Resultado</p>
+    <p>   ⚠️ Cálculo de referência simplificado. Sempre valide com um profissional habilitado e a norma NBR 5410 vigente.
+    </p>
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>
